@@ -1,0 +1,29 @@
+.header__inner {
+    background-color: #999999;
+}
+
+.navbar-toggler {
+    border-color: #dcdcdc;
+}
+
+.navbar-toggler.collapsed {
+    border-color: #000000;
+}
+
+.navbar-toggler.collapsed>.navbar-toggler__line {
+    background-color: #000000;
+}
+
+.navbar-toggler__line {
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: #dcdcdc;
+}
+
+.navbar-toggler__line:not(:last-child) {
+    margin-bottom: 0.4rem;
+}
+
+.dish {
+    background-color: #999999;
+}
